@@ -1,0 +1,4 @@
+[run]
+include = meta_sites/*
+omit = meta_sites/tests/*
+branch = 1
