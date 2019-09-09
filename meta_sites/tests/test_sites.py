@@ -11,5 +11,4 @@ class SiteTests(TestCase):
         self.assertEqual(get_site_id("amana", sites=meta_sites), 20)
 
     def test_bad(self):
-        self.assertRaises(InvalidSiteError, get_site_id,
-                          "erik", sites=meta_sites)
+        self.assertRaises(InvalidSiteError, get_site_id, "erik", sites=meta_sites)
