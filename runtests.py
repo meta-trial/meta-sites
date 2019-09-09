@@ -25,6 +25,7 @@ DEFAULT_SETTINGS = DefaultTestSettings(
         'django.contrib.sessions',
         'django.contrib.sites',
         'django.contrib.staticfiles',
+        'edc_sites.apps.AppConfig',
         'meta_sites.apps.AppConfig',
     ],
     # add_dashboard_middleware=True,
